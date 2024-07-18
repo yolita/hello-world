@@ -35,6 +35,10 @@ jobs:
           cd hello-world
           python hello.py
 
+lint:
+    name: Code standards
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
     - uses: actions/checkout@v4
     - name: Set up Python
