@@ -35,7 +35,7 @@ jobs:
           cd hello-world
           python hello.py
 
-lint:
+  lint:
     name: Code standards
     runs-on: ubuntu-latest
     timeout-minutes: 10
